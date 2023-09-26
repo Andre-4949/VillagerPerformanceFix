@@ -1,0 +1,12 @@
+name: VillagerPerformanceFix
+version: '0.01-Alpha'
+main: de.andre.villagerperformancefix.Main
+api-version: '1.20'
+load: STARTUP
+commands:
+  villagermerge:
+    description: Merges the Villager you look at and the same of its type in a 15 block radius to one. The resulting villager will have the added trading volume of all the sacrificed villagers. Trades will be sorted by type and name(alphabetically). Enchanted books will additionally be sorted by level.
+    usage: /villagermerge
+  trademove:
+    description: Moves a specified trade from one location to another use "/trademove list" for help
+    usage: /trademove list | /trademove [selectPosition] [newPosition]
